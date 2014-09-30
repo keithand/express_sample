@@ -24,13 +24,16 @@ app.get('/:name', function(req, res){
 	res.send('hello, ' + req.params.name);
 });
 
-//easier code with express to set messages when an action is executed.
+//easier code with express to set messages when an action is executed. 
 /* app.get('/', function(req,res){res.send('get request'); });
 app.post('/', function(req,res){res.send('post request'); });
 app.put('/', function(req,res){res.send('patch request'); });
 app.patch('/', function(req,res){res.send('get request'); });
 app.delete('/', function(req,res){res.send('delete request'); });
 */
+
+
+
 
 app.listen(port, function(){
 	console.log('listening on port ' + port);
