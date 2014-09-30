@@ -1,12 +1,14 @@
 {
   "name": "express-example",
-  "version": "1.2.3",
+  "version": "0.0.1",
   "description": "Let's see if this works on 9/28 at 5:04 PM...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Keith Anderson",
-  "license": "123"
+  "license": "123",
+  "dependencies": {
+    "basic-auth-connect": "~1.0.0"
+  }
 }
