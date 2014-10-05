@@ -1,0 +1,16 @@
+<doctype html>
+<html>
+  <head>
+    <title>Sample Greeting App</title>
+  </head>
+  <body>
+    <p>Why hello there, <strong><%= name + ' ' + last %></strong>!</p>
+    <p>Here is a list of all the users:
+    	<ul>
+    		<% users.forEach(function(user){ %>
+    			<% include user/show %>
+    		<% }) %>
+    	</ul>
+    </p>
+  </body>
+</html>
